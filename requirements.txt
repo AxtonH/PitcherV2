@@ -6,3 +6,4 @@ python-pptx
 fpdf
 tiktoken
 python-dotenv
+google-generativeai

@@ -18,7 +18,7 @@ from reportlab.pdfgen import canvas  # To generate PDFs
 from reportlab.lib.pagesizes import letter
 
 # Google Gemini API Configuration
-GEMINI_API_KEY = st.secrets["GOOGLE_API_KEY"]
+GEMINI_API_KEY = st.secrets["API_KEY"]
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Constants for Safe Content Length
